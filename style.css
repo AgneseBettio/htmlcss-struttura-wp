@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px 150px;
+}
+
+#box-rosa{
+    background-color: #ff859a;
+    height: 100px;
+}
+#box-verde{
+    background-color: #8cd48c;
+    height: 300px;
+}
+#box-blu{
+    background-color: #3257fc;
+    height:500px
+}
+#box-viola{
+    background-color: #ac53ac;
+    height: 50px;
+
+}
+
+section,aside,main {
+    background-color: #c7fdf1
+}
