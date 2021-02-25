@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container{
+.container-box{
     margin: 20px 150px;
 }
 
@@ -25,7 +25,26 @@
     height: 50px;
 
 }
-
-section,aside,main {
-    background-color: #c7fdf1
+aside,main,section {
+    background-color: cornflowerblue;
+}
+section{
+    height:50px;
+}
+aside,main{
+    height: 200px;
+}
+main {
+    width:60%;
+}
+aside{
+    width: 20%;
+}
+.container.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container.clearfix > *{
+    float: left;
 }
