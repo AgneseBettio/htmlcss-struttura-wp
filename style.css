@@ -25,17 +25,17 @@
     height: 50px;
 
 }
-aside,main,section {
+main >* {
     background-color: #8efdee;
 }
 section{
     height:50px;
     margin-bottom: 20px;
 }
-aside,main{
+aside,.c-box{
     height: 410px;
 }
-main {
+.c-box {
     width: 55%;
     margin-left: 2.5%;
     margin-right: 2.5%;
