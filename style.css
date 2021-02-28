@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container.box{
+.container-box{
     margin: 20px 150px;
 }
 
@@ -25,12 +25,15 @@
     height: 50px;
 
 }
-main >* {
+.text-box{
     background-color: #8efdee;
 }
-section{
+.container.clearfix *{
+    background-color: #8efdee;
+}
+.text-box{
     height:50px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 aside,.c-box{
     height: 410px;
