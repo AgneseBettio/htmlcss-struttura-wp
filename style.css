@@ -8,19 +8,19 @@
     margin: 20px 150px;
 }
 
-#box-rosa{
+.box-rosa{
     background-color: #ff859a;
     height: 100px;
 }
-#box-verde{
+.box-verde{
     background-color: #8cd48c;
     height: 300px;
 }
-#box-blu{
+.box-blu{
     background-color: #3257fc;
     height:500px
 }
-#box-viola{
+footer{
     background-color: #ac53ac;
     height: 50px;
 
